@@ -1,0 +1,160 @@
+/* Navigation Menu at Top of the Page */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+/* Formatting Page */
+.left {
+    /* background: blueviolet; */
+    float: left;
+    padding: 1%;
+    width: 15%;
+}
+
+.right {
+    display: inline;
+    float: right;
+    width: 80%;
+    padding-left: 3%;
+    /* background: red; */
+}
+
+/* Left Sided Element Design */
+
+    /* image shape change */
+.left img {
+    border-radius: 50%;
+}
+
+    /* Links Display */
+.left section {
+    /* background: red; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Right Sided Element Design */
+
+    /* Timeline Design */
+
+
+    /* Designing Education Section */
+#educationlist {
+    float: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+    /* background: coral; */
+}
+
+#educationlist th, #educationlist td {
+    padding: 2%;
+    border: 1px solid #dddddd;
+}
+
+#educationlist tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#educationlist tr:hover {
+    background-color: #dddddd;
+}
+
+#educationlist a {
+    text-decoration: none;
+    color: black;
+}
+
+#educationlist a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#educationlist th {
+    background-color: #333333;
+    color: white;
+}
+
+    /* Design Certificate Section */
+#courselist {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+}
+
+#courselist th, #courselist td {
+    padding: 2%;
+    border: 1px solid #dddddd;
+}
+
+#courselist tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#courselist tr:hover {
+    background-color: #dddddd;
+}
+
+#courselist a {
+    text-decoration: none;
+    color: black;
+}
+
+#courselist a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#courselist th {
+    background-color: #333333;
+    color: white;
+}
+
+/* Project Section */
+.card {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-left: 15%;
+}
+
+.card img {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
